@@ -7,7 +7,7 @@ main {
 
 app-sidebar {
     position: absolute;
-    padding-top: 0;
+    padding-top: 0px;
     left: 0rem;
     width: 85px;
     height: calc(100vh);
@@ -22,12 +22,11 @@ app-items {
     left: 0rem;
     margin-left: 6%;
     padding-left: 10px;
-    width: 192px;
+    width: 198px;
     height: calc(100vh);
     border-right: 1px solid #000000;
     border-radius: 18px;
     background-color: transparent;
-
 }
 
 

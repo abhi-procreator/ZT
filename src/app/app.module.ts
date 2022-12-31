@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatDialogModule } from '@angular/material/dialog';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ItemsComponent } from './items/items.component';
-import { PreviewComponent } from './preview/preview.component';
+import { TestComponent } from './test/test.component';
+import { TestTakerComponent } from './test-taker/test-taker.component';
+import { GroupComponent } from './group/group.component';
+import { DeliveriesComponent } from './deliveries/deliveries.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -17,15 +18,15 @@ import { PreviewComponent } from './preview/preview.component';
     HeaderComponent,
     SidebarComponent,
     ItemsComponent,
-    PreviewComponent
+    TestComponent,
+    TestTakerComponent,
+    GroupComponent,
+    DeliveriesComponent,
+    ResultsComponent
   ],
-  entryComponents: [PreviewComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatDialogModule,
-    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

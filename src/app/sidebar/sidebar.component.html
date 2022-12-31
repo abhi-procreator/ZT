@@ -1,41 +1,12 @@
 <div class="container">
     <div class="col">
-        <div class="side-icons">
-            <a type="button" (click)="HideItems()">
-                <i class="bi bi-journals"></i>
-                <p>Items</p>
+        <div class="side-icons" *ngFor="let sidebar of sidebarArray">
+            <a type="button" (click)="sidebarItemClick(sidebar.title)">
+                <i class="{{sidebar.icon}}"></i>
+                <p>{{sidebar.title}}</p>
             </a> 
         </div>
-        <div class="side-icons">
-            <a>
-                <i class="bi bi-file-earmark-font"></i>
-                <p>Tests</p>
-            </a>
-        </div>
-        <div class="side-icons">
-        <a>
-            <i class="bi bi-person-fill"></i>
-            <p>Test Takers</p>
-        </a>
-        </div>
-        <div class="side-icons">
-        <a>
-            <i class="bi bi-people-fill"></i>
-            <p>Groups</p>
-        </a>
-        </div>
-        <div class="side-icons">
-        <a>
-            <i class="bi bi-file-text-fill"></i>
-            <p>Deliveries</p>
-        </a>
-        </div>
-        <div class="side-icons">
-        <a>
-            <i class='fas fa-graduation-cap'></i>
-            <p>Results</p>
-        </a>
-        </div>
+      
     </div>
 </div>
 

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'ZTProject';
+  selectedSidebar = '';
 
- @Input() ShowItems:boolean=false;
+ sidebarItemClick(sidebarTitle:any){
+  console.log(sidebarTitle); 
+  this.selectedSidebar = sidebarTitle;
+ }
 }

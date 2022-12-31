@@ -1,0 +1,28 @@
+.navbar-brand {
+    font-size: 20px;
+    font-family: ROBOTO-MEDIUM;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.navbar {
+    background-color: #0C747E;
+}
+
+.container-fluid {
+    margin-bottom: 6px;
+}
+
+.icons {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.icons li {
+    margin-right: 15px;
+}
+
+a:hover {
+    cursor: pointer;
+}

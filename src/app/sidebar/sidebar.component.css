@@ -1,0 +1,44 @@
+i {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.col {
+    margin-left: 6px;
+    padding-left: 2px; 
+}
+.side-icons{
+    border-radius: 2px;
+    padding-left: 1px;
+    width: 60px;
+}
+.side-icons i,p{
+    margin-left: 4px;
+}
+.side-icons:hover{
+  background-color: #FFFFFF;
+}
+.side-icons:hover>a i{
+  color: #0C747E;
+}
+.side-icons:hover>a p{
+    color: #0C747E;
+  }
+
+
+
+
+
+
+
+

@@ -1,29 +1,27 @@
-i {
-    font-size: 35px;
+.side-icons{
+    font-size: 30px;
     color: #FFFFFF;
+    padding: auto;
+    margin-left: 12px;
+    border: none;
+
+}
+.side-icons i{
+    margin-left: 5px;
 }
 
 p {
     font-size: 14px;
     color: #FFFFFF;
-    margin-bottom: 5px;
-    margin-left: 2px;
+  
 }
 
-a:hover {
+span:hover {
     cursor: pointer;
+
 }
 
-.col {
-    margin-left: 6px;
-    padding-left: 2px; 
-}
-.side-icons{
-    margin-bottom: 20px;
-    border-radius: 2px;
-    padding-left: 4px;
-    width: 60px;
-}
+
 
 
 

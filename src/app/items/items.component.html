@@ -1,17 +1,17 @@
-
-
 <div class="nav-items">
   <div class="items-row">
     <div class="row">
       <div class="d-flex">
-        <a type="button" data-bs-toggle="modal"><i class="bi bi-eye-fill"></i></a>&nbsp;&nbsp;
+        <a class="content"><i class="bi bi-eye-fill"></i>
+          <span id="tooltipText">Preview</span>
+        </a>&nbsp;&nbsp;
         <a><i class="bi bi-pencil-square"></i></a>&nbsp;&nbsp;
         <a><i class="bi bi-window-dock"></i></a>&nbsp;&nbsp;
         <a><i class="bi bi-stopwatch"></i></a>
       </div>
     </div>
-    
-    
+
+
     <div class="row">
       <span class="col-md-6">
         <li class="nav-item dropdown">
@@ -21,7 +21,7 @@
         </li>
         <hr>
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="bi bi-folder-fill"></i>&nbsp;<span> QTI Example Test</span>&nbsp;
+          <i class="bi bi-folder-fill"></i>&nbsp;<span> QT1 Example Test</span>&nbsp;
         </a>
         <ul class="dropdown-menu dropdown-menu">
           <li><a class="dropdown-item" href="#">Characters and Plays</a></li>
@@ -34,61 +34,59 @@
           <li><a class="dropdown-item" href="#">The Space Shuttle, 30 years old</a></li>
         </ul>
       </span>
-      </div>
+    </div>
 
 
-     <div class="card" style="width: 28rem;">
+    <div class="card" style="width: 28rem;">
       <div class="card-header">
         <h5 class="modal-title fs-9" id="ModalLabel">Edit Item</h5>
       </div>
       <div class="card-body">
-          <div class="row">
-           <div class="col-md-5">
-             <label for="Label">Label*</label>
-           </div>
-           <div class="col-md-7">
-             <input type="text" class="form-control" placeholder="Associate Tings">
-           </div>
+        <div class="row">
+          <div class="col-md-5">
+            <label for="Label">Label*</label>
           </div>
-   
-          <div class="row mt-5 mb-4">
-           <div class="col-md-5">
-             <label for="Label">Item Modal</label>
-           </div>
-           <div class="col-md-7">
-             <input type="radio">&nbsp;QTI
-           </div>
+          <div class="col-md-7">
+            <input type="text" class="form-control" placeholder="Associate Tings">
           </div>
-      </div>
-    </div>
-    </div>
-    <hr>
-
-
- <div class="downIcons">
-  <div class="down-icons">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="icon mt-1" *ngFor="let itemsicons of items1Array">
-          <a>
-            <i class="{{itemsicons.icons}}"></i>
-            <p>{{itemsicons.title}}</p>
-          </a>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="icon mt-1" *ngFor="let itemsicons of items2Array">
-          <a>
-            <i class="{{itemsicons.icons}}"></i>
-            <p>{{itemsicons.title}}</p>
-          </a>
+
+        <div class="row mt-5 mb-4">
+          <div class="col-md-5">
+            <label for="Label">Item Modal</label>
+          </div>
+          <div class="col-md-7">
+            <input type="radio">&nbsp;QTI
+          </div>
         </div>
-      </div>
-      <div class="savebtn">
-        <a class="btn"><span><i class="fa fa-floppy-o"></i> Save</span></a>
       </div>
     </div>
   </div>
- </div>
-    
-    
+  <hr>
+
+
+  <div class="downIcons">
+    <div class="down-icons">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="icon mt-1" *ngFor="let itemsicons of items1Array">
+            <a>
+              <i class="{{itemsicons.icons}}"></i>
+              <p>{{itemsicons.title}}</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="icon mt-1" *ngFor="let itemsicons of items2Array">
+            <a>
+              <i class="{{itemsicons.icons}}"></i>
+              <p>{{itemsicons.title}}</p>
+            </a>
+          </div>
+        </div>
+        <div class="savebtn">
+          <a class="btn"><span><i class="fa fa-floppy-o"></i> Save</span></a>
+        </div>
+      </div>
+    </div>
+  </div>

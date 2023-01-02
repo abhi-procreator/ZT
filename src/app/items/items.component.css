@@ -95,3 +95,31 @@ span{
 .downIcons{
    margin-right: 10px;
 }
+
+#tooltipText{
+   position: absolute;
+   top: 0px;
+   transform: translateX(-70%);
+   background-color: #000;
+   color: #fff;
+   padding: 4px 6px;
+   white-space: nowrap;
+   border-radius: 2px;
+   visibility: hidden;
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
+#tooltipText::after{
+   content: "";
+   position: absolute;
+   left: 50%;
+   bottom: 100%;
+   transform: translateX(-50%);
+   border: 8px solid;
+   border-color: #0000 #0000 #000 #0000 ;
+}
+.content:hover #tooltipText{
+   top: 40px;
+   visibility: visible;
+   opacity: 1;
+}

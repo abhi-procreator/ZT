@@ -7,10 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ItemsComponent } from './items/items.component';
 import { TestComponent } from './test/test.component';
-import { TestTakerComponent } from './test-taker/test-taker.component';
-import { GroupComponent } from './group/group.component';
-import { DeliveriesComponent } from './deliveries/deliveries.component';
-import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +14,6 @@ import { ResultsComponent } from './results/results.component';
     HeaderComponent,
     SidebarComponent,
     ItemsComponent,
-    TestComponent,
-    TestTakerComponent,
-    GroupComponent,
-    DeliveriesComponent,
-    ResultsComponent
   ],
   imports: [
     BrowserModule,
